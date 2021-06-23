@@ -1,5 +1,7 @@
 let buttonColours=["red", "blue", "green", "yellow"];
 let gamePattern=[];
+let   userClickedPattern=[];
+
 let started=false;
 let level=0;
 function nextSequence(){
