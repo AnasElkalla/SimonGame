@@ -47,12 +47,13 @@ if(gamePattern[currentLevel]===userClickedPattern[currentLevel]){
       }
 }else{
   console.log("wrong");
+     $("h1").text("Game Over, Press Any Key to Restart");
+
   playSound("wrong");
   $("body").addClass("game-over");
   setTimeout(function() {
        $("body").removeClass("game-over")
    },1000);
-   $("h1").text("Game Over, Press Any Key to Restart");
    startOver();
 }
 }
