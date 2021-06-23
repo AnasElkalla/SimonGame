@@ -54,8 +54,8 @@ if(gamePattern[currentLevel]===userClickedPattern[currentLevel]){
   setTimeout(function() {
        $("body").removeClass("game-over")
    },1000);
-   startOver();
-}
+   setTimeout(function() {
+startOver()    },1000);
 }
 function startOver(){
   level=0;
