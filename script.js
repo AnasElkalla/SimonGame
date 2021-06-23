@@ -60,5 +60,4 @@ function startOver(){
   level=0;
   started=false;
   gamePattern=[];
-  $("h1").text("Press a key to start")
 }
